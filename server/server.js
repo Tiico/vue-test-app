@@ -14,4 +14,10 @@ app.get('/api/customers', (req, res) => {
 
 const port = 5000;
 
-app.listen(port, () => `Server running on port ${port}`);
+app.use(express.static(__dirname + "/dist/"));
+
+app.get(/.*/, function(req, res){
+    res.sendfile(__dirname + "/dist/index.html")
+});
+
+app.listen(port, () => console.log(`Server running on port ${port}`));
