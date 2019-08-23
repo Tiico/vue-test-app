@@ -8,9 +8,9 @@ script:
 - npm test
 deploy:
   provider: heroku
-  app: vue-performance-test
+  app: vue-test-app
   api_key:
     secure: VUozk6G+caDh0bm4z5TE5upZnqnb7/qfn9zCe2dAXv/tQx+gDNvHQW2VzLiiJgK/7tncvGjtXEFt06JN6Rg+VNd4l/o7GL1ao2rxRlsSS77Jxvr7wMD355LeL+QSehyvBFVLhFS1tfVltbuWpM4XUnrc6Q0B58qLNtXTsJihQntELZ8F1QOd61lkMz/Tjolczq7jxmglHbSsLkQMVUvGERNFoKrLXC8SFBy1ZcwDzN9wcoqHyCqC2A4zHxwfZffzlV+0QxF6RHAKmV1dmnRrPs1CKRk8rM7b2caOtwHJPc2THBIezmHnVpvgu51gP0u9SzCNNy7FllTJNnyfuUS0eQra9Fx0ghGK0o0KCQKE5u6HQSGjeqxYQ2/uT3risDoTzdtjo5h/sxcmDCO+xao+Jhqe0vvToa36KsGyvsD1dRCgIP4dN/KC0qtzb/3rpRvEfke7jq957Z3pyxmT+BuoTDGl9G0sxbvDQdVEFvGlOVnWJ5BSAiEVT/Vrxto7R2gj0psPLSzGIZjXFHdTNxu0eOQWi1lMCmKTz48tOCSPhz2oG04uOKY1wHie2zCprFcT8y9XJiwaBYlEcVquI/7GeSvFvNS5Aoash4OsxTVnLdTT2ja7wcN6S62nqtmlrn6fLl4ZsEpLPNWV+RnzIENfk5VIpHWojgQ5wBbLz98laSw=
   on:
-    repo: Tiico/vue-performance-test
+    repo: Tiico/vue-test-app
     branch: master
